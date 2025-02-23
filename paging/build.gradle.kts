@@ -25,6 +25,9 @@ kotlin {
         browser()
         nodejs()
     }
+    wasmJs {
+        browser()
+    }
     cocoapods {
         summary = "Store5/Paging"
         homepage = "https://github.com/MobileNativeFoundation/Store"
